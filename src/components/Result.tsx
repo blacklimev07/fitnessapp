@@ -8,10 +8,10 @@ interface ResultProps {
 
 export default function Result({ result, onGetPlan }: ResultProps) {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-50 to-teal-50 px-4 py-12">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-50 to-amber-50 px-4 py-12">
       <div className="max-w-2xl w-full">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold mb-6">
             <Sparkles className="w-4 h-4" />
             Your Result is Ready
           </div>
@@ -27,7 +27,7 @@ export default function Result({ result, onGetPlan }: ResultProps) {
           <div className="space-y-4">
             <button
               onClick={onGetPlan}
-              className="w-full px-8 py-5 bg-emerald-600 text-white text-xl font-semibold rounded-full hover:bg-emerald-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-[1.02] transform flex items-center justify-center gap-3"
+              className="w-full px-8 py-5 bg-orange-600 text-white text-xl font-semibold rounded-full hover:bg-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-[1.02] transform flex items-center justify-center gap-3"
             >
               Get Your Personalized Plan
               <ArrowRight className="w-6 h-6" />
@@ -40,15 +40,15 @@ export default function Result({ result, onGetPlan }: ResultProps) {
         <div className="mt-8 text-center">
           <div className="inline-flex items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
               Personalized for you
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
               Expert-designed
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
               Proven results
             </div>
           </div>
